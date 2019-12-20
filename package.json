@@ -2,6 +2,7 @@
   "name": "@kiali/kiali-ui",
   "version": "1.11.0",
   "description": "React UI for [Kiali](https://github.com/kiali/kiali).",
+  "proxy": "http://35.202.169.215/kiali/",
   "keywords": [
     "istio service mesh",
     "kiali",

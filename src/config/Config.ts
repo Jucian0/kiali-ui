@@ -2,7 +2,7 @@ import deepFreeze from 'deep-freeze';
 import { UNIT_TIME, MILLISECONDS } from '../types/Common';
 
 // We assume this is always defined in the .env file
-const documentationUrl = 'http://google.com'; //process.env.REACT_APP_KIALI_DOC_URL!;
+const documentationUrl = process.env.REACT_APP_KIALI_DOC_URL!;
 
 const conf = {
   /** Configuration related with session */

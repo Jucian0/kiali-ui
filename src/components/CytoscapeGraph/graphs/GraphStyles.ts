@@ -247,7 +247,7 @@ export class GraphStyles {
       }" style="${contentRawStyle}">${content}</div>`;
     }
 
-    return `<div class="${labelStyleDefault}" style="${labelRawStyle}">${badges}${content}</div>`;
+    return content ? `<div class="${labelStyleDefault}" style="${labelRawStyle}">${badges}${content}</div>` : '';
   }
 
   static htmlNodeLabels(cy: Cy.Core) {
